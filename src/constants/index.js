@@ -17,8 +17,13 @@ export const EXPERIENCES = [
       with clients to understand and meet the clients needs.`,
     technologies: ["HTML", "CSS", "TypeScript", "JavaScript", "MongoDB", "Redux", "Node JS"],
   },
-  
-  
+  {
+    year: "2021 - 2022",
+    role: "Frontend Developer Intern",
+    company: "Adobe",
+    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+  },
   {
     year: "2020 - present",
     role: "Customer Service Assistant",
