@@ -123,6 +123,15 @@ const Technologies = () => {
           <IoLogoCss3 className="text-7xl text-sky-700" />
           <p className="items text-center my-1">CSS</p>
         </motion.div>
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <p className="items text-center my-1">CSS</p>
+        </motion.div>
       </motion.div>
     </div>
   );
