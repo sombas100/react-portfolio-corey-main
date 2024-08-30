@@ -130,7 +130,7 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <BiLogoPostgresql className="text-7xl text-sky-700" />
-          <p className="items text-center my-1">CSS</p>
+          <p className="items text-center my-1">PostgreSQL</p>
         </motion.div>
       </motion.div>
     </div>
