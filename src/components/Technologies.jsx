@@ -11,6 +11,7 @@ import { IoLogoCss3 } from "react-icons/io5";
 import { SiRedux } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
+import { FaSass } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -130,8 +131,17 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
+          <FaSass className="text-7xl text-pink-700" />
+          <p className="items text-center my-1">Sass</p>
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <FaPython className="text-7xl text-sky-700" />
-          <p className="items text-center my-1">CSS</p>
+          <p className="items text-center my-1">Python</p>
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
@@ -140,7 +150,7 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <DiDjango className="text-7xl text-red-600" />
-          <p className="items text-center my-1">CSS</p>
+          <p className="items text-center my-1">Django</p>
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
