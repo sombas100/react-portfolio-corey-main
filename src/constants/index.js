@@ -46,7 +46,7 @@ export const PROJECTS = [
     title: "Paloma Vintage Clothing E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "A fully functional e-commerce website with features such as product listing, shopping cart, and user authentication.",
     technologies: ["React", "TypeScript",  "JavaScript", "Redux", "TailWindCSS",  "NodeJS", "MongoDB",  "Firebase"],
     url: "https://palomavintage.netlify.app/",
   },
@@ -62,7 +62,7 @@ export const PROJECTS = [
     title: "Recipe Finder",
     image: project3,
     description:
-      "A website that finds a variety of recipes ranging from italian cuisine to Korean food etc..",
+      "An application that finds a variety of recipes ranging from italian cuisine to Korean food and much more.",
     technologies: ["React", "TypeScript", "Flowbite"],
     url: "https://popshake.netlify.app/",
   },
