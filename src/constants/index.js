@@ -39,7 +39,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A learning management system (LMS) that allows users to enroll on online courses and gain access to video lessons. Includes admin features with the ability to create, edit and delete courses as well as view current users, courses and enrollments. *Admin account: admin@gmail.com | password: admin",
-    technologies: ["React", "Typescript", "JavaScript", "Redux", "Chakra UI", "TailWindCSS", "NodeJS", "ExpressJS", "PostgreSQL"],
+    technologies: ["React", "Typescript", "JavaScript", "Redux", "ChakraUI", "TailWindCSS", "NodeJS", "ExpressJS", "PostgreSQL"],
     url: "https://easy-learn-mu.vercel.app/",
   },
   {
