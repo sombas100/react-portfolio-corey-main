@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/paloma.png";
 import project2 from "../assets/projects/staffify.png";
 import project3 from "../assets/projects/popshake.png";
-import project4 from "../assets/projects/QR.png";
+import project4 from "../assets/projects/easylearn.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a 
 skill set for crafting robust and scalable web applications. 
@@ -22,7 +22,7 @@ export const EXPERIENCES = [
     description: `Designed and developed user interfaces for
      web applications using React JS. Worked closely
       with clients to understand and meet the clients needs.`,
-    technologies: ["HTML", "CSS", "TypeScript", "JavaScript", "MongoDB", "Redux", "Node JS", "C#", ".NET", "Python", "Django"],
+    technologies: ["TypeScript", "JavaScript", "MongoDB", "NodeJS", "C#", ".NET", "Python", "Django"],
   },
   {
     year: "2020 - present",
@@ -35,11 +35,19 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "EasyLearn",
+    image: project4,
+    description:
+      "A learning management system (LMS) that allows users to enroll on online courses and gain access to video lessons. Includes admin features with the ability to create, edit and delete courses as well as view current users, courses and enrollments. *Admin account: admin@gmail.com | password: admin",
+    technologies: ["React", "Typescript", "JavaScript", "Redux", "Chakra UI", "TailWindCSS", "NodeJS", "ExpressJS", "PostgreSQL"],
+    url: "https://easy-learn-mu.vercel.app/",
+  },
+  {
     title: "Paloma Vintage Clothing E-Commerce Website",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["TypeScript", "JavaScript","CSS", "React.JS", "Node.JS", "MongoDB", "Redux", "Firebase"],
+    technologies: ["React", "TypeScript",  "JavaScript", "Redux", "TailWindCSS",  "Node.JS", "MongoDB",  "Firebase"],
     url: "https://palomavintage.netlify.app/",
   },
   {
@@ -47,7 +55,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "An application for managing staff, payment and attendance with features such as staff creation, assignment, payment and attendance tracking.",
-    technologies: ["Node.JS", "Express.JS", "React.JS", "Firebase", "TypeScript", "MongoDB",],
+    technologies: ["React", "TypeScript", "Firebase", "Flowbite", "Node.JS", "Express.JS", "MongoDB",],
     url: "https://staffify.netlify.app/",
   },
   {
@@ -55,17 +63,10 @@ export const PROJECTS = [
     image: project3,
     description:
       "A website that finds a variety of recipes ranging from italian cuisine to Korean food etc..",
-    technologies: ["TypeScript", "React.JS", "Flowbite"],
+    technologies: ["TypeScript", "React", "Flowbite"],
     url: "https://popshake.netlify.app/",
   },
-  {
-    title: "Custom QR code generator",
-    image: project4,
-    description:
-      "A web application that enables the user to create a custom QR code to a designated URL.",
-    technologies: ["React", "Typescript"],
-    url: "https://cc-quickercodegenerator.netlify.app/",
-  },
+  
 ];
 
 export const CONTACT = {
