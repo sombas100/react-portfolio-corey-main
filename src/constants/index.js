@@ -39,7 +39,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A learning management system (LMS) that allows users to enroll on online courses and gain access to video lessons. Includes admin features with the ability to create, edit and delete courses as well as view current users, courses and enrollments. *Admin account: admin@gmail.com | password: admin",
-    technologies: ["React", "Typescript", "JavaScript", "Redux", "ChakraUI", "TailWindCSS", "NodeJS", "ExpressJS", "PostgreSQL"],
+    technologies: ["React", "TypeScript", "JavaScript", "Redux", "ChakraUI", "TailWindCSS", "NodeJS", "ExpressJS", "PostgreSQL"],
     url: "https://easy-learn-mu.vercel.app/",
   },
   {
@@ -47,7 +47,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["React", "TypeScript",  "JavaScript", "Redux", "TailWindCSS",  "Node.JS", "MongoDB",  "Firebase"],
+    technologies: ["React", "TypeScript",  "JavaScript", "Redux", "TailWindCSS",  "NodeJS", "MongoDB",  "Firebase"],
     url: "https://palomavintage.netlify.app/",
   },
   {
@@ -55,7 +55,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "An application for managing staff, payment and attendance with features such as staff creation, assignment, payment and attendance tracking.",
-    technologies: ["React", "TypeScript", "Firebase", "Flowbite", "Node.JS", "Express.JS", "MongoDB",],
+    technologies: ["React", "TypeScript", "Firebase", "Flowbite", "NodeJS", "ExpressJS", "MongoDB",],
     url: "https://staffify.netlify.app/",
   },
   {
@@ -63,7 +63,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A website that finds a variety of recipes ranging from italian cuisine to Korean food etc..",
-    technologies: ["TypeScript", "React", "Flowbite"],
+    technologies: ["React", "TypeScript", "Flowbite"],
     url: "https://popshake.netlify.app/",
   },
   
