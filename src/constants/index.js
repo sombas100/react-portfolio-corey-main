@@ -16,6 +16,15 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
+    year: "Febuary 2025 - May 2025",
+    role: "Fullstack Developer Intern",
+    company: "Softu LTD",
+    description: `Designed and created websites & applications
+          for third party clients under specific guidelines and requests using a variety of frontend
+          and backend technologies.`,
+    technologies: ["TypeScript", "JavaScript", "Postgresql", "NodeJS", "TailwindCSS", "Redux"],
+  },
+  {
     year: "2023 - present",
     role: "Freelance Fullstack developer",
     company: "N/A",
@@ -25,7 +34,7 @@ export const EXPERIENCES = [
     technologies: ["TypeScript", "JavaScript", "MongoDB", "NodeJS", "C#", ".NET", "Python", "Django"],
   },
   {
-    year: "2020 - present",
+    year: "March 2020 - present",
     role: "Customer Service Assistant",
     company: "Lidl",
     description: `Contributed to daily tasks working with a team and satisfying customer needs.`,
