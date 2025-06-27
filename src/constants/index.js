@@ -25,7 +25,7 @@ export const EXPERIENCES = [
     technologies: ["TypeScript", "JavaScript", "Postgresql", "NodeJS", "TailwindCSS", "Redux"],
   },
   {
-    year: "2023 - present",
+    year: "March 2023 - present",
     role: "Freelance Fullstack developer",
     company: "N/A",
     description: `Designed and developed user interfaces for
