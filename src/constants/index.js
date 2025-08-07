@@ -1,7 +1,8 @@
 import project1 from "../assets/projects/paloma.png";
 import project2 from "../assets/projects/staffify.png";
 import project3 from "../assets/projects/popshake.png";
-import project4 from "../assets/projects/easylearn.png"
+import project4 from "../assets/projects/easylearn.png";
+import project5 from "../assets/projects/portoralanding.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a 
 skill set for crafting robust and scalable web applications. 
@@ -43,6 +44,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Portora",
+    image: project5,
+    description:
+      "Portora is a fullstack SaaS client portal designed to streamline project collaboration between freelancers and their clients. It offers a secure, centralized workspace for managing projects, exchanging files, sharing feedback, and monitoring progress — all from a clean, intuitive dashboard.",
+    technologies: ["React", "TypeScript", "JavaScript", "ContextAPI", "TailWindCSS", "NodeJS", "Socket.Io", "ExpressJS", "PostgreSQL", "Sequelize", "Nodemailer", "Cloudinary", "Multer"],
+    url: "https://www.portora.net/",
+  },
   {
     title: "EasyLearn",
     image: project4,
