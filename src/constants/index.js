@@ -2,7 +2,7 @@ import project1 from "../assets/projects/paloma.png";
 import project2 from "../assets/projects/staffify.png";
 import project3 from "../assets/projects/popshake.png";
 import project4 from "../assets/projects/easylearn.png";
-import project5 from "../assets/projects/portoralanding.png";
+import project5 from "../assets/portoralanding.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a 
 skill set for crafting robust and scalable web applications. 
