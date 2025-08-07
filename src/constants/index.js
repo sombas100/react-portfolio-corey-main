@@ -34,13 +34,6 @@ export const EXPERIENCES = [
       with clients to understand and meet the clients needs.`,
     technologies: ["TypeScript", "JavaScript", "MongoDB", "NodeJS", "C#", ".NET", "Python", "Django"],
   },
-  {
-    year: "March 2020 - present",
-    role: "Customer Service Assistant",
-    company: "Lidl",
-    description: `Contributed to daily tasks working with a team and satisfying customer needs.`,
-    technologies: ["N/A"],
-  },
 ];
 
 export const PROJECTS = [
