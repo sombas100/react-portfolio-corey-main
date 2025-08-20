@@ -41,8 +41,8 @@ export const PROJECTS = [
     title: "Portora",
     image: project5,
     description:
-      "Portora is a fullstack SaaS client portal designed to streamline project collaboration between freelancers and their clients. It offers a secure, centralized workspace for managing projects, exchanging files, sharing feedback, and monitoring progress — all from a clean, intuitive dashboard.",
-    technologies: ["React", "TypeScript", "JavaScript", "ContextAPI", "TailWindCSS", "NodeJS", "Socket.Io", "ExpressJS", "PostgreSQL", "Stripe" ],
+      "Portora is a fullstack SaaS client portal designed to streamline project collaboration between freelancers and their clients. It offers a secure, centralized workspace for managing projects, exchanging files, sharing feedback, and monitoring progress all from a clean, intuitive dashboard.",
+    technologies: ["React", "TypeScript", "JavaScript", "Context API", "TailWindCSS", "NodeJS", "Socket.Io", "ExpressJS", "PostgreSQL", "Stripe" ],
     url: "https://www.portora.net/welcome",
   },
   {
