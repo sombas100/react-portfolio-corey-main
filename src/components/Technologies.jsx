@@ -11,7 +11,8 @@ import { IoLogoCss3 } from "react-icons/io5";
 import { SiRedux } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
-import { FaSass } from "react-icons/fa";
+import { FaPhp } from "react-icons/fa";
+import { FaLaravel } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -114,7 +115,7 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaHtml5 className="text-7xl text-orange-700" />
-          <p className="items text-center my-1">HTML</p>
+          <p className="items text-center my-1">HTML5</p>
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
@@ -131,8 +132,8 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaSass className="text-7xl text-pink-700" />
-          <p className="items text-center my-1">Sass</p>
+          <FaPhp className="text-7xl text-blue-400" />
+          <p className="items text-center my-1">PHP</p>
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
@@ -154,6 +155,15 @@ const Technologies = () => {
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaLaravel className="text-7xl text-red-600" />
+          <p className="items text-center my-1">Laravel</p>
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
