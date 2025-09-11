@@ -10,7 +10,7 @@ My goal is to leverage my expertise to create innovative solutions that drive bu
 growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.
- I have worked with a variety of technologies, including ReactJS, Next.JS, Node, C#, Python, PostgreSQL, MongoDB and more. 
+ I have worked with a variety of technologies, including ReactJS, Laravel, Node, PHP, Python, PostgreSQL, MongoDB and more. 
  My journey in web development began with a deep curiosity for how web applications work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges.
   I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies,
    and contributing to open-source projects.`;
