@@ -3,6 +3,7 @@ import project2 from "../assets/projects/staffify.png";
 import project3 from "../assets/projects/popshake.png";
 import project4 from "../assets/projects/easylearn.png";
 import project5 from "../assets/portora-landing-page.png";
+import project6 from "../assets/projects/lanre.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a 
 skill set for crafting robust and scalable web applications. 
@@ -37,6 +38,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Durojaiye Consultancy",
+    image: project6,
+    description:
+      "A full-stack consultation booking and payments platform built for a medical consultancy in Lagos, Nigeria. The system allows patients to register, subscribe, book appointments, and securely pay online, while the doctor manages schedules, users, and revenue through a custom admin dashboard.",
+    technologies: ["React", "NextJS", "TypeScript", "NextAuth", "TailWindCSS",  "PostgreSQL(Neon)", "Prisma", "Paystack" ],
+    url: "https://www.lanredurojaiye-consultancy.com/",
+  },
   {
     title: "Portora",
     image: project5,
