@@ -43,7 +43,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fullstack job board focused exclusively on junior and entry-level developer roles, designed to eliminate misleading “entry-level” listings that require senior experience. Built with Next.js, PostgreSQL, and Auth.js, featuring role-based authentication, resume uploads, and a complete employer-candidate workflow.",
-    technologies: ["React", "NextJS", "TypeScript", "AuthJS", "TailWindCSS", "RadixUI", "PostgreSQL(Neon)", "Prisma" ],
+    technologies: ["React", "NextJS", "TypeScript", "AuthJS", "TailWindCSS", "RadixUI", "PostgreSQL(Neon)", "Prisma", "Cloudinary" ],
     url: "https://www.hireflowjobs.io/",
   },
   {
