@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/paloma.png";
+import project1 from "../assets/projects/hireflow.png"
 import project2 from "../assets/projects/staffify.png";
-import project3 from "../assets/projects/popshake.png";
+
 import project4 from "../assets/projects/easylearn.png";
 import project5 from "../assets/portora-landing-page.png";
 import project6 from "../assets/projects/lanre.png";
@@ -39,6 +39,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Hireflow",
+    image: project1,
+    description:
+      "A fullstack job board focused exclusively on junior and entry-level developer roles, designed to eliminate misleading “entry-level” listings that require senior experience. Built with Next.js, PostgreSQL, and Auth.js, featuring role-based authentication, resume uploads, and a complete employer-candidate workflow.",
+    technologies: ["React", "NextJS", "TypeScript", "AuthJS", "TailWindCSS", "RadixUI", "PostgreSQL(Neon)", "Prisma" ],
+    url: "https://www.hireflowjobs.io/",
+  },
+  {
     title: "Durojaiye Consultancy",
     image: project6,
     description:
@@ -63,14 +71,6 @@ export const PROJECTS = [
     url: "https://easy-learn-mu.vercel.app/",
   },
   {
-    title: "Paloma Vintage Clothing E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features such as product listing, shopping cart, and user authentication.",
-    technologies: ["React", "TypeScript",  "JavaScript", "Redux", "TailWindCSS",  "NodeJS", "MongoDB",  "Firebase"],
-    url: "https://palomavintage.netlify.app/",
-  },
-  {
     title: "Staffify",
     image: project2,
     description:
@@ -78,14 +78,7 @@ export const PROJECTS = [
     technologies: ["React", "TypeScript", "Firebase", "Flowbite", "NodeJS", "ExpressJS", "MongoDB",],
     url: "https://staffify.netlify.app/",
   },
-  {
-    title: "Recipe Finder",
-    image: project3,
-    description:
-      "An application that finds a variety of recipes ranging from italian cuisine to Korean food and much more.",
-    technologies: ["React", "TypeScript", "Flowbite"],
-    url: "https://popshake.netlify.app/",
-  },
+  
   
 ];
 
