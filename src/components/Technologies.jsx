@@ -1,7 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { DiDjango, DiRedis } from "react-icons/di";
+import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbBrandTypescript } from "react-icons/tb";
@@ -13,6 +13,7 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
 import { FaLaravel } from "react-icons/fa";
+import { DiRedis } from "react-icons/di";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -141,17 +142,8 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaPython className="text-7xl text-sky-700" />
-          <p className="items text-center my-1">Python</p>
-        </motion.div>
-        <motion.div
-          variants={iconVariants(2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <DiDjango className="text-7xl text-red-600" />
-          <p className="items text-center my-1">Django</p>
+          <DiRedis className="text-7xl text-red-600" />
+          <p className="items text-center my-1">Redis</p>
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
