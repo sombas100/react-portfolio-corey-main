@@ -1,7 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbBrandTypescript } from "react-icons/tb";
@@ -10,7 +9,6 @@ import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { SiRedux } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
 import { FaLaravel } from "react-icons/fa";
 import { DiRedis } from "react-icons/di";
