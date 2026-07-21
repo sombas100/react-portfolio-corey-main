@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/hireflow.png"
 import project2 from "../assets/projects/staffify.png";
-
+import project3 from '../assets/projects/dashboard-sharp.png';
 import project4 from "../assets/projects/easylearn.png";
 import project5 from "../assets/portora-landing-page.png";
 import project6 from "../assets/projects/lanre.png";
@@ -39,6 +39,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Xuris",
+    image: project3,
+    description:
+      "Designed, developed and launched an AI-powered SaaS platform that helps job seekers throughout the recruitment process, providing resume analysis, interview preparation, cover letter generation and application tracking through AI-powered workflows.",
+    technologies: ["React", "TypeScript", "ExpressJS", "Docker", "Clerk", "Shadcn", "TailWindCSS", "AWS:S3", "PostgreSQL(Neon)", "Prisma", "OpenAi" ],
+    url: "https://www.xuris.io",
+  },
+  {
     title: "Hireflow",
     image: project1,
     description:
@@ -62,23 +70,6 @@ export const PROJECTS = [
     technologies: ["React", "TypeScript", "JavaScript", "ContextAPI", "TailWindCSS", "NodeJS", "Socket.Io", "ExpressJS", "PostgreSQL", "Stripe" ],
     url: "https://www.portora.net/welcome",
   },
-  {
-    title: "EasyLearn",
-    image: project4,
-    description:
-      "A learning management system (LMS) that allows users to enroll on online courses and gain access to video lessons. Includes admin features with the ability to create, edit and delete courses as well as view current users, courses and enrollments. *Admin account: admin@gmail.com | password: admin",
-    technologies: ["React", "TypeScript", "JavaScript", "Redux", "ChakraUI", "TailWindCSS", "NodeJS", "ExpressJS", "PostgreSQL"],
-    url: "https://easy-learn-mu.vercel.app/",
-  },
-  {
-    title: "Staffify",
-    image: project2,
-    description:
-      "An application for managing staff, payment and attendance with features such as staff creation, assignment, payment and attendance tracking.",
-    technologies: ["React", "TypeScript", "Firebase", "Flowbite", "NodeJS", "ExpressJS", "MongoDB",],
-    url: "https://staffify.netlify.app/",
-  },
-  
   
 ];
 
