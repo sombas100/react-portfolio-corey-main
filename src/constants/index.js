@@ -43,7 +43,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "Designed, developed and launched an AI-powered SaaS platform that helps job seekers throughout the recruitment process, providing resume analysis, interview preparation, cover letter generation and application tracking through AI-powered workflows.",
-    technologies: ["React", "TypeScript", "ExpressJS", "Docker", "Clerk", "Shadcn", "TailWindCSS", "AWS:S3", "PostgreSQL(Neon)", "Prisma", "OpenAi" ],
+    technologies: ["React", "TypeScript", "ExpressJS", "Docker", "Clerk", "Shadcn", "Stripe", "TailWindCSS", "AWS:S3", "PostgreSQL(Neon)", "Prisma", "OpenAi" ],
     url: "https://www.xuris.io",
   },
   {
